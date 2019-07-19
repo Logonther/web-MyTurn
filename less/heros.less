@@ -5,7 +5,37 @@
         position: relative;
         padding: 10rem/@fontSize;
         .content{
-            border: 2px solid #333;
+            border: 3rem/@fontSize solid #333;
+            position: relative;
+            color: white;
+            .title{
+                height: 33rem/@fontSize;
+                line-height: 30rem/@fontSize;
+                font-size: 20rem/@fontSize;
+                border-bottom: 3rem/@fontSize solid #333;
+                span{
+                    padding: 0 15rem/@fontSize;
+                }
+            }
+            .pic{
+                height: 203rem/@fontSize;
+                background-image: url("../image/书龙-01.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                border-bottom: 3rem/@fontSize solid #333;
+            }
+            .skills{
+                background-color: #444;
+                font-size: 15rem/@fontSize;
+                height: 188rem/@fontSize;
+                overflow-y: scroll;
+                .skill{
+                    padding: 0 15rem/@fontSize;
+                    line-height: 25rem/@fontSize;
+                    font-size: 16rem/@fontSize;
+                    padding-bottom: 10rem/@fontSize;
+                }
+            }
         }
         .content.yellow{
             background-color: rgb(189,161,0);
