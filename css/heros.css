@@ -1,0 +1,11 @@
+.heros {
+  position: relative;
+}
+.heros .hero {
+  position: relative;
+  padding: 2%;
+}
+.heros .hero .content {
+  border: 2px solid #333;
+}
+/*# sourceMappingURL=heros.css.map */
