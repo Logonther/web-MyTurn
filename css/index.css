@@ -70,7 +70,14 @@ body {
 .navbar-brand img {
   height: 50px;
 }
-.indexText p {
+.indexText p，ul {
   font-size: 16px;
+}
+.indexText ul {
+  list-style: disc;
+  margin-left: 15px;
+}
+.indexText ul li {
+  list-style: disc;
 }
 /*# sourceMappingURL=index.css.map */
