@@ -5,16 +5,6 @@ $(function () {
         type:"GET",
         success:function(data){
             $(".heros").empty();
-            console.log(data);
-            data.sort(function(hero1, hero2) {
-                if(hero1.type < hero2.type){
-                    return -1;
-                }else if(hero1.type > hero2.type){
-                    return 1;
-                }else{
-                    return 0;
-                };
-            });
             $.each(data,function(i,obj) {
                 $(".heros").append("<div class=\"hero col-sm-3 col-xs-6\">\n" +
                     "        <div class=\"content "+obj.type+"\">\n" +
