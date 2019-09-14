@@ -7,7 +7,7 @@ $(function () {
             $(".heros").empty();
             $.each(data,function(i,obj) {
                 $(".heros").append("<div class=\"hero col-sm-3 col-xs-6\">\n" +
-                    "        <div class=\"content "+obj.type+"\">\n" +
+                    "        <div class=\"content "+obj.type+' '+obj.rare+"\">\n" +
                     "            <div class=\"title\">\n" +
                     "                <span>"+obj.cost+"</span>" +obj.name+
                     "            </div>\n" +
@@ -54,7 +54,7 @@ $(function () {
                 });
                 $.each(data,function(i,obj) {
                     $(".heros").append("<div class=\"hero col-sm-3 col-xs-6\">\n" +
-                        "        <div class=\"content "+obj.type+"\">\n" +
+                        "        <div class=\"content "+obj.type+' '+obj.rare+"\">\n" +
                         "            <div class=\"title\">\n" +
                         "                <span>"+obj.cost+"</span>" +obj.name+
                         "            </div>\n" +
@@ -94,7 +94,7 @@ $(function () {
                 });
                 $.each(data,function(i,obj) {
                     $(".heros").append("<div class=\"hero col-sm-3 col-xs-6\">\n" +
-                        "        <div class=\"content "+obj.type+"\">\n" +
+                        "        <div class=\"content "+obj.type+' '+obj.rare+"\">\n" +
                         "            <div class=\"title\">\n" +
                         "                <span>"+obj.cost+"</span>" +obj.name+
                         "            </div>\n" +

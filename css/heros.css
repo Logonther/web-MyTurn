@@ -81,6 +81,9 @@ body {
   border: 0.03rem solid #333;
   position: relative;
   color: white;
+  background-repeat: no-repeat;
+  background-size: 0.3rem;
+  background-position: right top;
 }
 .heros .hero .content .title {
   height: 0.33rem;
@@ -124,5 +127,14 @@ body {
 }
 .heros .hero .content.green {
   background-color: #0c724d;
+}
+.heros .hero .content.copper {
+  background-image: url("../image/铜卡.png");
+}
+.heros .hero .content.silver {
+  background-image: url("../image/银卡.png");
+}
+.heros .hero .content.gold {
+  background-image: url("../image/金卡.png");
 }
 /*# sourceMappingURL=heros.css.map */
