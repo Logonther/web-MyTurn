@@ -97,7 +97,7 @@ $(function () {
     }
 
     function inin(card,txt) {
-        $(".cards").append("<div class=\"card col-sm-2 col-xs-6\">\n" +
+        $(".cards").append("<div class=\"card col-sm-2 col-xs-5\">\n" +
             "        <img src='image/cardback.jpg'>\n" +
             "        <div class=\"cardfront\" style='background-image: url("+card.pic+")'>\n" +
             "            <div class=\"title "+card.type+"\">\n" +

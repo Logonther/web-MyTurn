@@ -75,7 +75,7 @@ body {
   transform-style: preserve-3d;
   perspective: 0px;
   padding: 0;
-  margin: 15px;
+  margin: 0.3rem 0.1rem;
 }
 .cards .card img {
   width: 100%;
@@ -98,6 +98,7 @@ body {
   background-image: url("../image/书龙-01.png");
   background-size: auto 100%;
   background-position: center;
+  background-repeat: no-repeat;
   transform: rotateY(180deg);
 }
 .cards .card .cardfront .title {
