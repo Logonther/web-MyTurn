@@ -72,25 +72,25 @@ $(function () {
                 card = european[rollcard(european)]
                 if (card.rare == "copper") {
                     console.log("小暴击"+card.name+"*12");
-                    inin(card);
+                    inin(card,card.name+"×12");
                 }else if (card.rare == "silver") {
                     console.log("小暴击"+card.name+"*4");
-                    inin(card);
+                    inin(card,card.name+"×4");
                 }else{
                     console.log("小暴击"+card.name+"*1");
-                    inin(card);
+                    inin(card,card.name+"×1");
                 }
             }else{
                 card = european[rollcard(european)]
                 if (card.rare == "copper") {
                     console.log("大暴击"+card.name+"*36");
-                    inin(card);
+                    inin(card,card.name+"×36");
                 }else if (card.rare == "silver") {
                     console.log("大暴击"+card.name+"*12");
-                    inin(card);
+                    inin(card,card.name+"×12");
                 }else{
                     console.log("大暴击"+card.name+"*3");
-                    inin(card);
+                    inin(card,card.name+"×3");
                 }
             }
         }
