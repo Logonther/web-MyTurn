@@ -1,1 +1,90 @@
 @import "base";
+.cards{
+    .card{
+        position: relative;
+        transform-style: preserve-3d;
+        perspective: 0px;
+        padding: 0;
+        margin: 15px;
+        img{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 1s;
+            z-index: 1;
+            backface-visibility: hidden;
+            border: 3rem/@fontSize solid #333;
+        }
+        .cardfront{
+            border: 3rem/@fontSize solid #333;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 1s;
+            width: 100%;
+            height: 100%;
+            background-image: url("../image/书龙-01.png");
+            background-size: auto 100%;
+            background-position: center;
+            transform: rotateY(180deg);
+            .title{
+                height: 33rem/@fontSize;
+                line-height: 30rem/@fontSize;
+                font-size: 20rem/@fontSize;
+                border-bottom: 3rem/@fontSize solid #333;
+                span{
+                    padding: 0 15rem/@fontSize;
+                }
+                color: white;
+
+            }
+            .title.yellow{
+                background-color: rgb(189,161,0);
+            }
+            .title.red{
+                background-color: rgb(175,66,50);
+            }
+            .title.blue{
+                background-color: rgb(53,94,170);
+            }
+            .title.purple{
+                background-color: rgb(118,84,145);
+            }
+            .title.green{
+                background-color: rgb(12,114,77);
+            }
+            .title.equipment{
+                opacity: 0;
+            }
+        }
+        .txt{
+            height: 33rem/@fontSize;
+            line-height: 30rem/@fontSize;
+            font-size: 20rem/@fontSize;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            opacity: 0;
+            .rare{
+                display: inline-block;
+                width: 33rem/@fontSize;
+                height: 33rem/@fontSize;
+                background-size: 33rem/@fontSize;
+                background-repeat: no-repeat;
+                background-position: center center;
+                position: relative;
+                vertical-align: middle;
+            }
+            .rare.gold{
+                background-image: url("../image/金卡.png");
+            }
+            .rare.silver{
+                background-image: url("../image/银卡.png");
+            }
+            .rare.copper{
+                background-image: url("../image/铜卡.png");
+            }
+        }
+    }
+}

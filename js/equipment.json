@@ -2,307 +2,307 @@
     {
         "name":"无尽力量头盔",
         "cost":"5",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/无尽力量头盔.jpg"
     },
     {
         "name":"石像鬼的披风",
         "cost":"3",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/石像鬼的披风.jpg"
     },
     {
         "name":"钢铁毁灭战斧",
         "cost":"3",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/钢铁毁灭战斧.jpg"
     },
     {
         "name":"魔法符文之瞳",
         "cost":"5",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/魔法符文之瞳.jpg"
     },
     {
         "name":"刺骨寒冰之爪",
         "cost":"1",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/刺骨寒冰之爪.jpg"
     },
     {
         "name":"踏风者的长靴",
         "cost":"1",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/踏风者的长靴.jpg"
     },
     {
         "name":"天使命运竖琴",
         "cost":"3",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/天使命运竖琴.jpg"
     },
     {
         "name":"混沌魔神之牙",
         "cost":"4",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/混沌魔神之牙.jpg"
     },
     {
         "name":"黑暗诅咒之盾",
         "cost":"3",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/黑暗诅咒之盾.jpg"
     },
     {
         "name":"鲜血魔女圣杯",
         "cost":"5",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/鲜血魔女圣杯.jpg"
     },
     {
         "name":"黎明先锋圣剑",
         "cost":"5",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/黎明先锋圣剑.jpg"
     },
     {
         "name":"满盈之月精华",
         "cost":"1",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/满盈之月精华.jpg"
     },
     {
         "name":"神兵宝库钥匙",
         "cost":"0",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/神兵宝库钥匙.jpg"
     },
     {
         "name":"扭曲命运骰子",
         "cost":"4",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/扭曲命运骰子.jpg"
     },
     {
         "name":"不灭凤凰余烬",
         "cost":"4",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/不灭凤凰余烬.jpg"
     },
     {
         "name":"酿酒师蒸馏器",
         "cost":"1",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/酿酒师蒸馏器.jpg"
     },
     {
         "name":"神秘怪盗提箱",
         "cost":"2",
-        "rare":"gold",
+        "rare":"gold","type":"equipment",
         "pic":"image/equipments/神秘怪盗提箱.jpg"
     },
     {
         "name":"微光的蜡烛",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/微光的蜡烛.jpg"
     },
     {
         "name":"审判官之锤",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/审判官之锤.jpg"
     },
     {
         "name":"毁灭者发球",
         "cost":"4",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/毁灭者发球.jpg"
     },
     {
         "name":"紫水晶吊坠",
         "cost":"4",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/紫水晶吊坠.jpg"
     },
     {
         "name":"翡翠玉指环",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/翡翠玉指环.jpg"
     },
     {
         "name":"守备官臂甲",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/守备官臂甲.jpg"
     },
     {
         "name":"隐居者斗篷",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/隐居者斗篷.jpg"
     },
     {
         "name":"超音速引擎",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/超音速引擎.jpg"
     },
     {
         "name":"贤者的笔记",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/贤者的笔记.jpg"
     },
     {
         "name":"水精灵双刃",
         "cost":"1",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/水精灵双刃.jpg"
     },
     {
         "name":"不屈者腰带",
         "cost":"3",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/不屈者腰带.jpg"
     },
     {
         "name":"纵火狂燧石",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/纵火狂燧石.jpg"
     },
     {
         "name":"黑曜石铠甲",
         "cost":"1",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/黑曜石铠甲.jpg"
     },
     {
         "name":"大祭司权杖",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/大祭司权杖.jpg"
     },
     {
         "name":"血女巫符咒",
         "cost":"2",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/血女巫符咒.jpg"
     },
     {
         "name":"收藏家遗产",
         "cost":"1",
-        "rare":"silver",
+        "rare":"silver","type":"equipment",
         "pic":"image/equipments/收藏家遗产.jpg"
     },
     {
         "name":"聚气手腕",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/聚气手腕.jpg"
     },
     {
         "name":"磐石护符",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/磐石护符.jpg"
     },
     {
         "name":"圣光法典",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/圣光法典.jpg"
     },
     {
         "name":"刺客匕首",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/刺客匕首.jpg"
     },
     {
         "name":"吸血面具",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/吸血面具.jpg"
     },
     {
         "name":"聚能长袍",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/聚能长袍.jpg"
     },
     {
         "name":"生命果实",
         "cost":"3",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/生命果实.jpg"
     },
     {
         "name":"屏障宝珠",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/屏障宝珠.jpg"
     },
     {
         "name":"逆流手套",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/逆流手套.jpg"
     },
     {
         "name":"巨蛇鳞片",
         "cost":"3",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/巨蛇鳞片.jpg"
     },
     {
         "name":"巫毒人偶",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/巫毒人偶.jpg"
     },
     {
         "name":"修女耳坠",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/修女耳坠.jpg"
     },
     {
         "name":"圣女旗帜",
         "cost":"3",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/圣女旗帜.jpg"
     },
     {
         "name":"殉难披肩",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/殉难披肩.jpg"
     },
     {
         "name":"荆棘头冠",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/荆棘头冠.jpg"
     },
     {
         "name":"聚雷线圈",
         "cost":"2",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/聚雷线圈.jpg"
     },
     {
         "name":"失语丝巾",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/失语丝巾.jpg"
     },
     {
         "name":"军师锦囊",
         "cost":"1",
-        "rare":"copper",
+        "rare":"copper","type":"equipment",
         "pic":"image/equipments/军师锦囊.jpg"
     }
 ]
