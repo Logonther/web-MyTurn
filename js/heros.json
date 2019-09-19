@@ -1,6 +1,7 @@
 [
     {
         "name":"侍从",
+        "if":true,
         "cost":"4",
         "type":"yellow",
         "rare":"copper",
@@ -36,6 +37,7 @@
     },
     {
         "name":"园林看守",
+        "if":false,
         "cost":"3",
         "type":"yellow",
         "rare":"copper",
@@ -71,6 +73,7 @@
     },
     {
         "name":"突击战牛",
+        "if":true,
         "cost":"6",
         "type":"yellow",
         "rare":"copper",
@@ -106,6 +109,7 @@
     },
     {
         "name":"冬幕卫士",
+        "if":true,
         "cost":"6",
         "type":"yellow",
         "rare":"silver",
@@ -141,6 +145,7 @@
     },
     {
         "name":"守护天使",
+        "if":true,
         "cost":"7",
         "type":"yellow",
         "rare":"silver",
@@ -176,6 +181,7 @@
     },
     {
         "name":"奴隶斗士",
+        "if":true,
         "cost":"4",
         "type":"yellow",
         "rare":"silver",
@@ -211,6 +217,7 @@
     },
     {
         "name":"剑舞者",
+        "if":true,
         "cost":"6",
         "type":"yellow",
         "rare":"gold",
@@ -246,6 +253,7 @@
     },
     {
         "name":"战争领主",
+        "if":true,
         "cost":"4",
         "type":"yellow",
         "rare":"gold",
@@ -281,6 +289,8 @@
     },
     {
         "name":"黎明之剑",
+        "if":true,
+        "if":false,
         "cost":"6",
         "type":"yellow",
         "rare":"gold",
@@ -312,10 +322,17 @@
                 "txt":"嘲讽，将3张光之剑混入牌库"
             }
         ],
-        "derivative":[]
+        "derivative":[
+            {
+                "cost":0,
+                "name":"光之剑",
+                "txt":"对生命最高敌方造成150%攻击力伤害，这张卡同时视为攻击卡"
+            }
+        ]
     },
     {
         "name":"弩手",
+        "if":true,
         "cost":"7",
         "type":"red",
         "rare":"copper",
@@ -351,6 +368,8 @@
     },
     {
         "name":"狂战士",
+        "if":true,
+        "if":false,
         "cost":"4",
         "type":"red",
         "rare":"copper",
@@ -386,6 +405,7 @@
     },
     {
         "name":"伏击刺客",
+        "if":true,
         "cost":"4",
         "type":"red",
         "rare":"copper",
@@ -421,6 +441,7 @@
     },
     {
         "name":"武士",
+        "if":true,
         "cost":"9",
         "type":"red",
         "rare":"silver",
@@ -456,6 +477,7 @@
     },
     {
         "name":"复仇之刃",
+        "if":false,
         "cost":"4",
         "type":"red",
         "rare":"silver",
@@ -463,7 +485,7 @@
         "ex":[
             {
                 "name":"复仇之愿",
-                "txt":"对全体敌方造成125%攻击力伤害，嘲讽，被攻击时对敌方造成125%攻击力伤害"
+                "txt":"对全体敌方造成100%攻击力伤害，嘲讽，被攻击时对敌方造成100%攻击力伤害"
             }
         ],
         "skill1":[
@@ -484,13 +506,14 @@
             {
                 "cost":1,
                 "name":"血肉诅咒",
-                "txt":"造成150%攻击力伤害，并使其下回合所受治疗和护盾降低为1，损失150%攻击力生命"
+                "txt":"造成150%攻击力伤害，并使其下回合所受治疗和护盾降低50%，损失150%攻击力生命"
             }
         ],
         "derivative":[]
     },
     {
         "name":"处决者",
+        "if":true,
         "cost":"7",
         "type":"red",
         "rare":"silver",
@@ -526,6 +549,7 @@
     },
     {
         "name":"狙击手",
+        "if":true,
         "cost":"6",
         "type":"red",
         "rare":"silver",
@@ -561,6 +585,7 @@
     },
     {
         "name":"圣枪修女",
+        "if":true,
         "cost":"6",
         "type":"red",
         "rare":"gold",
@@ -596,6 +621,7 @@
     },
     {
         "name":"重拳警卫",
+        "if":true,
         "cost":"3",
         "type":"red",
         "rare":"gold",
@@ -631,6 +657,7 @@
     },
     {
         "name":"钢铁雄狮",
+        "if":true,
         "cost":"7",
         "type":"red",
         "rare":"gold",
@@ -666,6 +693,7 @@
     },
     {
         "name":"学徒",
+        "if":true,
         "cost":"9",
         "type":"blue",
         "rare":"copper",
@@ -701,6 +729,7 @@
     },
     {
         "name":"荒漠萨满",
+        "if":false,
         "cost":"7",
         "type":"blue",
         "rare":"copper",
@@ -736,6 +765,7 @@
     },
     {
         "name":"风暴使者",
+        "if":true,
         "cost":"6",
         "type":"blue",
         "rare":"copper",
@@ -777,6 +807,7 @@
     },
     {
         "name":"寒冰巫女",
+        "if":true,
         "cost":"9",
         "type":"blue",
         "rare":"silver",
@@ -812,6 +843,7 @@
     },
     {
         "name":"红莲之羽",
+        "if":true,
         "cost":"9",
         "type":"blue",
         "rare":"silver",
@@ -847,6 +879,7 @@
     },
     {
         "name":"唤星师",
+        "if":true,
         "cost":"8",
         "type":"blue",
         "rare":"silver",
@@ -882,6 +915,7 @@
     },
     {
         "name":"灵魂收割者",
+        "if":true,
         "cost":"5",
         "type":"blue",
         "rare":"gold",
@@ -917,6 +951,7 @@
     },
     {
         "name":"万象之龙",
+        "if":true,
         "cost":"8",
         "type":"blue",
         "rare":"gold",
@@ -968,6 +1003,8 @@
     },
     {
         "name":"猩红魔女",
+        "if":true,
+        "if":false,
         "cost":"7",
         "type":"blue",
         "rare":"gold",
@@ -975,7 +1012,7 @@
         "ex":[
             {
                 "name":"鲜血风暴",
-                "txt":"对全体敌方造成150%攻击力伤害，使其下回合所受治疗和护盾降为1"
+                "txt":"对全体敌方造成150%攻击力伤害，使其下回合所受治疗和护盾降低50%"
             }
         ],
         "skill1":[
@@ -996,13 +1033,14 @@
             {
                 "cost":5,
                 "name":"生命汲取",
-                "txt":"造成200%攻击力伤害，获得双倍伤害的治疗，咏唱"
+                "txt":"造成175%攻击力伤害，获得双倍伤害的治疗，咏唱"
             }
         ],
         "derivative":[]
     },
     {
         "name":"牧师",
+        "if":true,
         "cost":"4",
         "type":"green",
         "rare":"copper",
@@ -1038,6 +1076,7 @@
     },
     {
         "name":"德鲁伊",
+        "if":true,
         "cost":"5",
         "type":"green",
         "rare":"copper",
@@ -1073,6 +1112,7 @@
     },
     {
         "name":"圣骑士",
+        "if":true,
         "cost":"4",
         "type":"green",
         "rare":"silver",
@@ -1108,6 +1148,7 @@
     },
     {
         "name":"炼金师",
+        "if":true,
         "cost":"5",
         "type":"green",
         "rare":"silver",
@@ -1149,6 +1190,7 @@
     },
     {
         "name":"大主教",
+        "if":false,
         "cost":"6",
         "type":"green",
         "rare":"silver",
@@ -1184,14 +1226,15 @@
     },
     {
         "name":"护士长",
-        "cost":"4",
+        "if":true,
+        "cost":"3",
         "type":"green",
         "rare":"gold",
         "pic":"image/heros/护士长.jpg",
         "ex":[
             {
                 "name":"提灯天使",
-                "txt":"使所有友方复活，获得100%攻击力治疗"
+                "txt":"使所有友方复活，获得150%攻击力治疗"
             }
         ],
         "skill1":[
@@ -1210,7 +1253,7 @@
         ],
         "skill3":[
             {
-                "cost":1,
+                "cost":0,
                 "name":"白衣复仇者",
                 "txt":"造成100%攻击力伤害，每有1个死亡友方英雄，额外造成1次伤害"
             }
@@ -1219,33 +1262,34 @@
     },
     {
         "name":"符文之语",
-        "cost":"6",
+        "if":true,
+        "cost":"9",
         "type":"green",
         "rare":"gold",
         "pic":"image/heros/符文之语.jpg",
         "ex":[
             {
                 "name":"奥丁的智慧",
-                "txt":"本回合下个符文技能对目标全体盟友额外生效一次"
+                "txt":"本回合下个符文技能基础消耗-3，并额外生效一次"
             }
         ],
         "skill1":[
             {
-                "cost":2,
+                "cost":3,
                 "name":"卡纳兹符文",
                 "txt":"造成100%攻击力燃烧，贯穿"
             }
         ],
         "skill2":[
             {
-                "cost":2,
+                "cost":3,
                 "name":"伊扎符文",
                 "txt":"造成100%攻击力伤害，寒冷，贯穿"
             }
         ],
         "skill3":[
             {
-                "cost":2,
+                "cost":3,
                 "name":"耶拉符文",
                 "txt":"指定友方获得300%攻击力治疗，贯穿"
             }
@@ -1254,6 +1298,7 @@
     },
     {
         "name":"冒险家",
+        "if":true,
         "cost":"6",
         "type":"purple",
         "rare":"copper",
@@ -1289,6 +1334,7 @@
     },
     {
         "name":"工匠之锤",
+        "if":true,
         "cost":"5",
         "type":"purple",
         "rare":"copper",
@@ -1324,6 +1370,7 @@
     },
     {
         "name":"破魔机甲",
+        "if":true,
         "cost":"7",
         "type":"purple",
         "rare":"copper",
@@ -1338,7 +1385,7 @@
             {
                 "cost":3,
                 "name":"魔法回避装置",
-                "txt":"200%攻击力护盾，全体友方解除负面状态"
+                "txt":"150%攻击力护盾，全体友方解除负面状态"
             }
         ],
         "skill2":[
@@ -1359,6 +1406,7 @@
     },
     {
         "name":"大侦探",
+        "if":false,
         "cost":"7",
         "type":"purple",
         "rare":"silver",
@@ -1394,6 +1442,7 @@
     },
     {
         "name":"黑魔导士",
+        "if":true,
         "cost":"7",
         "type":"purple",
         "rare":"silver",
@@ -1401,7 +1450,7 @@
         "ex":[
             {
                 "name":"黑暗的邪月",
-                "txt":"全体敌方解除正面状态，并造成100%攻击力伤害"
+                "txt":"全体敌方解除正面状态，并造成125%攻击力伤害"
             }
         ],
         "skill1":[
@@ -1429,7 +1478,8 @@
     },
     {
         "name":"海盗女王",
-        "cost":"5",
+        "if":true,
+        "cost":"4",
         "type":"purple",
         "rare":"silver",
         "pic":"image/heros/海盗女王.jpg",
@@ -1448,7 +1498,7 @@
         ],
         "skill2":[
             {
-                "cost":1,
+                "cost":0,
                 "name":"掠夺弯刀",
                 "txt":"对全体敌方造成25%攻击力伤害，目标每有一张手牌，额外造成1次伤害"
             }
@@ -1464,6 +1514,7 @@
     },
     {
         "name":"奥术之源",
+        "if":true,
         "cost":"5",
         "type":"purple",
         "rare":"gold",
@@ -1499,6 +1550,7 @@
     },
     {
         "name":"发明家",
+        "if":true,
         "cost":"5",
         "type":"purple",
         "rare":"gold",
@@ -1506,7 +1558,7 @@
         "ex":[
             {
                 "name":"创世纪·试做型",
-                "txt":"所有手牌基础消耗-1，对全体敌方造成150%攻击力伤害"
+                "txt":"所有手牌基础消耗-1，对全体敌方造成125%攻击力伤害"
             }
         ],
         "skill1":[
@@ -1550,6 +1602,7 @@
     },
     {
         "name":"白魔导士",
+        "if":true,
         "cost":"8",
         "type":"purple",
         "rare":"gold",
@@ -1585,6 +1638,7 @@
     },
     {
         "name":"幻术师",
+        "if":false,
         "cost":"8",
         "type":"purple",
         "rare":"gold",
