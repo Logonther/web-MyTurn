@@ -132,26 +132,30 @@ $(function () {
             type:"GET",
             success:function(data){
                 $.each(data,function(i,obj) {
-                    if (obj.rare == "gold") {
-                        european.push(obj);
-                    }else{
-                        european.push(obj);
-                        african.push(obj);
+                    if(obj.if){
+                        if (obj.rare == "gold") {
+                            european.push(obj);
+                        }else{
+                            european.push(obj);
+                            african.push(obj);
+                        }
                     }
                 });
             }
-        })
+        });
         $.ajax({
             url:"js/equipment.json",
             datatype:"json",
             type:"GET",
             success:function(data){
                 $.each(data,function(i,obj) {
-                    if (obj.rare == "gold") {
-                        european.push(obj);
-                    }else{
-                        european.push(obj);
-                        african.push(obj);
+                    if(obj.if){
+                        if (obj.rare == "gold") {
+                            european.push(obj);
+                        }else{
+                            european.push(obj);
+                            african.push(obj);
+                        }
                     }
                 });
                 console.log(european);
