@@ -301,11 +301,11 @@
         "pic":"image/equipments/巨蛇鳞片.jpg"
     },
     {
-        "name":"巫毒人偶",
+        "name":"诅咒人偶",
         "if":false,
         "cost":"1",
         "rare":"copper","type":"equipment",
-        "pic":"image/equipments/巫毒人偶.jpg"
+        "pic":"image/equipments/诅咒人偶.jpg"
     },
     {
         "name":"修女耳坠",
