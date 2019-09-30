@@ -18,7 +18,7 @@ $(function () {
     function draw1() {
         var card = undefined;
         var roll_no = roll100();
-        if (roll_no <= 75) {
+        if (roll_no <= 70) {
             card = african[rollcard(african)];
             if (card.rare == "copper") {
                 console.log("不暴击"+card.name+"*3");
@@ -27,7 +27,7 @@ $(function () {
                 console.log("不暴击"+card.name+"*1");
                 inin(card,card.name+"×1");
             }
-        }else if (roll_no > 75 && roll_no <= 95) {
+        }else if (roll_no > 70 && roll_no <= 95) {
             card = european[rollcard(european)]
             if (card.rare == "copper") {
                 console.log("小暴击"+card.name+"*12");
@@ -60,7 +60,7 @@ $(function () {
         var luck = 0;
         for (var i = 0;i<4;i++){
             var roll_res = draw1();
-            if (roll_res>75) {
+            if (roll_res>70) {
                 luck++;
             }
         }
@@ -68,7 +68,7 @@ $(function () {
             draw1();
         }else{
             var roll_no = Math.floor(Math.random()*25+76)
-            if (roll_no > 75 && roll_no <= 95) {
+            if (roll_no > 70 && roll_no <= 95) {
                 card = european[rollcard(european)]
                 if (card.rare == "copper") {
                     console.log("小暴击"+card.name+"*12");
