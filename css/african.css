@@ -70,6 +70,9 @@ body {
 .navbar-brand img {
   height: 50px;
 }
+button {
+  margin: 10px !important;
+}
 .cards .card {
   position: relative;
   transform-style: preserve-3d;
