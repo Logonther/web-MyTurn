@@ -224,11 +224,11 @@
         "pic":"image/equipments/血女巫符咒.jpg"
     },
     {
-        "name":"收藏家遗产",
+        "name":"收藏家宝藏",
         "if":true,
         "cost":"2",
         "rare":"silver","type":"equipment",
-        "pic":"image/equipments/收藏家遗产.jpg"
+        "pic":"image/equipments/收藏家宝藏.jpg"
     },
     {
         "name":"聚气手腕",
