@@ -7,13 +7,22 @@ $(function () {
         $(".cards").empty();
         draw5()
     });
+    $("#96cards").click(function () {
+        version = '96cards'
+        init96()
+    });
+    $("#78cards").click(function () {
+        version = '78cards'
+        init78()
+    });
     console.log($(".card").width());
     $(".card").css("height",$(".card").width()*1.5);
 
     var african = [];
     var european = [];
+    var version = '96cards';
 
-    init()
+    init96()
 
     function draw1() {
         var card = undefined;
@@ -125,7 +134,45 @@ $(function () {
         return Math.floor(Math.random()*100+1)
     };
 
-    function init() {
+    function init96() {
+        african = []
+        european = []
+        $.ajax({
+            url:"js/heros.json",
+            datatype:"json",
+            type:"GET",
+            success:function(data){
+                $.each(data,function(i,obj) {
+                        if (obj.rare == "gold") {
+                            european.push(obj);
+                        }else{
+                            european.push(obj);
+                            african.push(obj);
+                        }
+                });
+            }
+        });
+        $.ajax({
+            url:"js/equipment.json",
+            datatype:"json",
+            type:"GET",
+            success:function(data){
+                $.each(data,function(i,obj) {
+                        if (obj.rare == "gold") {
+                            european.push(obj);
+                        }else{
+                            european.push(obj);
+                            african.push(obj);
+                        }
+                });
+                console.log(european);
+                console.log(african);
+            }
+        })
+    }
+    function init78() {
+        african = []
+        european = []
         $.ajax({
             url:"js/heros.json",
             datatype:"json",
