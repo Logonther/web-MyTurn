@@ -37,7 +37,7 @@
     },
     {
         "name":"园林看守",
-        "if":false,
+        "if":true,
         "cost":"4",
         "type":"yellow",
         "rare":"copper",
@@ -290,7 +290,6 @@
     {
         "name":"黎明之剑",
         "if":true,
-        "if":false,
         "cost":"6",
         "type":"yellow",
         "rare":"gold",
@@ -369,7 +368,6 @@
     {
         "name":"狂战士",
         "if":true,
-        "if":false,
         "cost":"4",
         "type":"red",
         "rare":"copper",
@@ -477,7 +475,7 @@
     },
     {
         "name":"复仇之刃",
-        "if":false,
+        "if":true,
         "cost":"5",
         "type":"red",
         "rare":"silver",
@@ -729,7 +727,7 @@
     },
     {
         "name":"荒漠萨满",
-        "if":false,
+        "if":true,
         "cost":"7",
         "type":"blue",
         "rare":"copper",
@@ -1004,7 +1002,6 @@
     {
         "name":"猩红魔女",
         "if":true,
-        "if":false,
         "cost":"7",
         "type":"blue",
         "rare":"gold",
@@ -1190,7 +1187,7 @@
     },
     {
         "name":"大主教",
-        "if":false,
+        "if":true,
         "cost":"6",
         "type":"green",
         "rare":"silver",
@@ -1406,7 +1403,7 @@
     },
     {
         "name":"大侦探",
-        "if":false,
+        "if":true,
         "cost":"7",
         "type":"purple",
         "rare":"silver",
@@ -1638,7 +1635,7 @@
     },
     {
         "name":"幻术师",
-        "if":false,
+        "if":true,
         "cost":"7",
         "type":"purple",
         "rare":"gold",
