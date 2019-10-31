@@ -31,7 +31,6 @@ $(function () {
     function draw1() {
         var card = undefined;
         var roll_no = roll100(min);
-        alert(roll_no)
         if (roll_no <= 70) {
             card = african[rollcard(african)];
             if (card.rare == "copper") {
