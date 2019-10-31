@@ -7,6 +7,9 @@ $(function () {
         $(".cards").empty();
         draw5()
     });
+    $("#europeKing").click(function () {
+        min = 100
+    });
     $("#96cards").click(function () {
         version = '96cards'
         init96()
@@ -21,12 +24,13 @@ $(function () {
     var african = [];
     var european = [];
     var version = '96cards';
+    var min = 1;
 
     init96()
 
     function draw1() {
         var card = undefined;
-        var roll_no = roll100();
+        var roll_no = roll100(min);
         if (roll_no <= 70) {
             card = african[rollcard(african)];
             if (card.rare == "copper") {
@@ -130,8 +134,8 @@ $(function () {
         return Math.floor(Math.random()*cards.length)
     }
 
-    function roll100() {
-        return Math.floor(Math.random()*100+1)
+    function roll100(min) {
+        return Math.floor(Math.random()*(101-min)+min)
     };
 
     function init96() {
