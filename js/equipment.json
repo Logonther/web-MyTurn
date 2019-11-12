@@ -302,7 +302,7 @@
     },
     {
         "name":"诅咒人偶",
-        "if":false,
+        "if":true,
         "cost":"1",
         "rare":"copper","type":"equipment",
         "pic":"image/equipments/诅咒人偶.jpg"
