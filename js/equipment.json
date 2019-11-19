@@ -64,7 +64,7 @@
     },
     {
         "name":"鲜血魔女圣杯",
-        "if":false,
+        "if":true,
         "cost":"5",
         "rare":"gold","type":"equipment",
         "pic":"image/equipments/鲜血魔女圣杯.jpg"
