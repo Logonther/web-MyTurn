@@ -89,6 +89,7 @@ button {
   z-index: 1;
   backface-visibility: hidden;
   border: 0.03rem solid #333;
+  transform: translateZ(1px);
 }
 .cards .card .cardfront {
   border: 0.03rem solid #333;
